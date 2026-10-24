@@ -1,0 +1,30 @@
+# Virtual environment — machine-specific, recreate with requirements.txt
+.venv/
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter autosave copies
+.ipynb_checkpoints/
+
+# Editor settings (per-machine)
+# .vscode/
+.idea/
+
+# Secrets
+.env
+
+# OS clutter
+Thumbs.db
+desktop.ini
+.DS_Store
