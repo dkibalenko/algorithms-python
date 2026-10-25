@@ -26,7 +26,7 @@ Old bare `.py` files in this folder (`two_sum.py`, `contains_duplicates217.py`, 
 
 ---
 
-## Two Pointers — 🔄 In progress
+## Two Pointers — ✅ Framework complete
 
 Notebooks: `two_pointers/1two_sum2Leet167.ipynb` through `6merge_sorted_arrayLeet88.ipynb`, `7best_time_buy_&_sell_stock.ipynb`, plus `two_pointers_tutorial.ipynb`.
 
@@ -43,7 +43,7 @@ Tutorial notebook (`two_pointers_tutorial.ipynb`) restructured 2026-09-28:
 - Fixed a mismatch where the pattern list and the summary table disagreed on what "Pattern 3" meant. Now four named patterns, each matched correctly to its problems (Opposite ends / Same direction / Fixed + inner two-pointer / Multi-pointer across two arrays).
 - Added the missing redundant-work story per pattern (the original only explained Pattern 1's pair-checking avoidance and implied it applied everywhere, which is wrong — Pattern 2 needs no sorted input at all, Pattern 4 avoids a sort rather than pair-checking).
 
-**Started, then paused 2026-10-07**: `8find_duplicate_number287.ipynb` — upgrading `first_recurring_char.py` into **LC 287, Find the Duplicate Number** via Floyd's cycle detection. Got through Step 1–3 cleanly (pigeonhole reasoning for why a duplicate must exist, correct brute force trace, hash-map alternative). Stalled at Step 4: the "array as implicit linked list" mapping (`next(i) = nums[i]`, cycle entrance = duplicate value) isn't landing from text/diagram alone — decided to pause and find a visual resource (animation/interactive) before resuming, rather than push through confused. Resume by re-reading the notebook's existing trace of `[1,3,4,2,2]` (0→1→3→2→4→2, cycle entrance at node 2) once a clearer visual is found.
+**Started, then paused 2026-10-07**: `8find_duplicate_number287.ipynb` — upgrading `first_recurring_char.py` into **LC 287, Find the Duplicate Number** via Floyd's cycle detection. Got through Step 1–3 cleanly (pigeonhole reasoning for why a duplicate must exist, correct brute force trace, hash-map alternative). Stalled at Step 4: the "array as implicit linked list" mapping (`next(i) = nums[i]`, cycle entrance = duplicate value) isn't landing from text/diagram alone — decided to pause and find a visual resource (animation/interactive) before resuming, rather than push through confused. Resume by re-reading the notebook's existing trace of `[1,3,4,2,2]` (0→1→3→2→4→2, cycle entrance at node 2) once a clearer visual is found. This approach will be learned at a later date on demand.
 
 ---
 
